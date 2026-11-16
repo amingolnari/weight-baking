@@ -1,0 +1,19 @@
+# Lower bounds only. Install PyTorch first for your CUDA version, then: pip install -r requirements.txt
+torch>=2.0
+transformers>=4.40
+huggingface_hub>=0.20
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+datasets>=2.14
+
+# scripts/build_data.py
+nltk>=3.8
+wordfreq>=3.0
+
+# Optional
+# ripser>=0.6            persistent homology (Betti-1); without it Betti-1 is reported as 0
+# bitsandbytes>=0.41     4-bit analysts (analyst_repo names containing "bnb-4bit")
+# accelerate>=0.26       needed by transformers for the 4-bit loading path
