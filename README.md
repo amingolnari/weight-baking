@@ -17,7 +17,7 @@ A local LLM "analyst" reads topological and geometric descriptors of one layer o
 
 This repository contains the full pipeline and every ablation study of the paper, the evaluation, the statistics, the data-preparation script, and the data files.
 
-> **Paper:** A. Golnari and S. Sanei, *Can AI Mature a Model's Geometry? Training-Free Weight Baking in LLMs* (manuscript, VinUniversity). See [Citation](#citation).
+> **Paper:** A. Golnari and S. Sanei, *Can AI Mature a Model's Geometry? Training-Free Weight Baking in LLMs* (arXiv preprint, VinUniversity). See [Citation](#citation).
 
 ## Contents
 
@@ -291,12 +291,12 @@ Limitations are:
 If you use this code or data, please cite the paper:
 
 ```bibtex
-@misc{golnari2026weightbaking,
-  title  = {Can AI Mature a Model's Geometry? Training-Free Weight Baking in LLMs},
-  author = {Golnari, Amin and Sanei, Saeid},
-  year   = {2026},
-  note   = {Manuscript},
-  url    = {https://github.com/amingolnari/weight-baking}
+@article{golnari2026weightbaking,
+  title     = {Can AI Mature a Model's Geometry? Training-Free Weight Baking in LLMs},
+  author    = {Golnari, Amin and Sanei, Saeid},
+  year      = {2026},
+  journal   = {arXiv preprint arXiv:2611.21310},
+  doi       = {https://doi.org/10.48550/arXiv.2611.21310}
 }
 ```
 
